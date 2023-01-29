@@ -39,5 +39,8 @@ class Student:
             self.to_sleep()
         elif live_cube == 3:
             self.to_chill()
+    def to_work(self):
+        print(f"Gladness = {self.gladness}")
+        print(f"Progress = {round(self.progress, 2)}")
         self.end_of_day()
         self.is_alive()

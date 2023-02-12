@@ -196,13 +196,13 @@ job_list = {
  }
 
 
-class Job:
-    def __init__(self, job_list):
-        self.job=random.choice(list(job_list))
-        self.salary=job_list[self.job]["salary"]
-        self.gladness_less=job_list[self.job]["gladness_less"]
-
-nick = Human(name="Nick")
-for day in range(1,800):
-    if nick.live(day) == False:
-        break
+# class Job:
+#     def __init__(self, job_list):
+#         self.job=random.choice(list(job_list))
+#         self.salary=job_list[self.job]["salary"]
+#         self.gladness_less=job_list[self.job]["gladness_less"]
+#
+# nick = Human(name="Nick")
+# for day in range(1,800):
+#     if nick.live(day) == False:
+#         break
